@@ -65,18 +65,19 @@ p{
     bottom: 0;
     left: 0;
     right: 0;
-    margin-bottom: 455px;
+    transform: translate(910px, -455px);
+    /*margin-bottom: 455px;
     margin-left: 910px;
-    margin-right: 945px;
+    margin-right: 945px;*/
     animation: circle 4s;
 }
 
 @keyframes circle{
     from{
-        margin-bottom: 20px;
+        transform: translate(910px, -40px);
     }
     to{
-        margin-bottom: 455px;
+        transform: translate(910px, -455px);
     }
 }
 
